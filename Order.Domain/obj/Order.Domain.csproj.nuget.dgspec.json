@@ -1,0 +1,56 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mirac/Downloads/DDD_InPractive_youtube-master/Order.Domain/Order.Domain.csproj": {}
+  },
+  "projects": {
+    "/Users/mirac/Downloads/DDD_InPractive_youtube-master/Order.Domain/Order.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mirac/Downloads/DDD_InPractive_youtube-master/Order.Domain/Order.Domain.csproj",
+        "projectName": "Order.Domain",
+        "projectPath": "/Users/mirac/Downloads/DDD_InPractive_youtube-master/Order.Domain/Order.Domain.csproj",
+        "packagesPath": "/Users/mirac/.nuget/packages/",
+        "outputPath": "/Users/mirac/Downloads/DDD_InPractive_youtube-master/Order.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mirac/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net50"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net50": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net50": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
